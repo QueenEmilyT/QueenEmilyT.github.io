@@ -29,12 +29,10 @@ a {
 }
 
 img {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  display: block; /* Remove any extra spacing around the image */
+  image-rendering: crisp-edges; /* Optimize image rendering for sharp edges */
+  /* Add any other styling you need */
 }
 
 video {
